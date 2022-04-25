@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My To DO List</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.2/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="CSS/style.css" />
+  </head>
+  <body>
+    <section class="outer-section-wrapper">
+      <div class="form-wrapper">
+        <div class="title-wrapper">
+          <h1>My To Do List</h1>
+        </div>
+        <div class="inertForm-wrapper">
+          <form action="" method="post">
+            <label class="addTitle" for="name"> Name</label>
+            <input
+              class="input-wrapper"
+              type="text"
+              name="name"
+              id="name"
+              placeholder="Title..."
+            />
+            <span id="add-wrapper"> Submit</span>
+          </form>
+        </div>
+      </div>
+    </section>
+    <section class="inert-section-wrapper">
+      <div class="list-container-left-wrapper">
+        <p>Pending Tasks</p>
+        <ul id="list-internal-container-wrapper">
+          <li id="left-list">
+            <span class="text-wrapper">Eat breakFast</span>
+            <span class="delet-wrapper">
+              <span class="edit-wrapper"> </span>
+              <span class="delete-wrapper"> </span>
+              <span class="left-wrapper"></span>
+            </span>
+          </li>
+          <li id="left-list">
+            <span class="text-wrapper">Make a symmetrical layout</span>
+            <span class="delet-wrapper">
+              <span class="edit-wrapper"></span>
+              <span class="delete-wrapper"></span>
+              <span class="left-wrapper"> </span>
+            </span>
+          </li>
+          <li id="left-list">
+            <span class="text-wrapper">Functional first, stylish second</span>
+            <span class="delet-wrapper">
+              <span class="edit-wrapper"> </span>
+              <span class="delete-wrapper"></span>
+              <span class="left-wrapper"></span>
+            </span>
+          </li>
+          <li id="left-list">
+            <span class="text-wrapper"
+              >there should be totally 5 http requests</span
+            >
+            <span class="delet-wrapper">
+              <span class="edit-wrapper"> </span>
+              <span class="delete-wrapper"></span>
+              <span class="left-wrapper"> </span>
+            </span>
+          </li>
+
+          <li id="left-list">
+            <span class="text-wrapper">Apply some style as you like</span>
+            <span class="delet-wrapper">
+              <span class="edit-wrapper"></span>
+              <span class="delete-wrapper"></span>
+              <span class="left-wrapper"></span>
+            </span>
+          </li>
+          <li id="left-list">
+            <span class="text-wrapper">bind event handler for buttons</span>
+            <span class="delet-wrapper">
+              <span class="edit-wrapper"> </span>
+              <span class="delete-wrapper"></span>
+              <span class="left-wrapper"> </span>
+            </span>
+          </li>
+        </ul>
+      </div>
+      <div class="list-container-right-wrapper">
+        <p>completed task</p>
+        <ul id="list-internal-right-container-wrapper">
+          <li>
+            <span class="text-right-wrapper"></span>
+            <span class="item">Hit the gym</span>
+            <span class="delet-wrapper">
+              <span class="edit-wrapper"> </span>
+              <span class="delete-wrapper"> </span>
+            </span>
+          </li>
+          <li>
+            <span class="text-right-wrapper"></span>
+            <span class="item">Pay bills</span>
+            <span class="delet-wrapper">
+              <span class="edit-wrapper"></span>
+              <span class="delete-wrapper"> </span>
+            </span>
+          </li>
+          <li>
+            <span class="text-right-wrapper"></span>
+            <span class="item">Meet George</span>
+            <span class="delet-wrapper">
+              <span class="edit-wrapper"> </span>
+              <span class="delete-wrapper"> </span>
+            </span>
+          </li>
+          <li>
+            <span class="text-right-wrapper"></span>
+            <span class="item">BUy eggs</span>
+            <span class="delet-wrapper">
+              <span class="edit-wrapper"> </span>
+              <span class="delete-wrapper"> </span>
+            </span>
+          </li>
+          <li>
+            <span class="text-right-wrapper"></span>
+            <span class="item">Read a book</span>
+            <span class="delet-wrapper">
+              <span class="edit-wrapper"></span>
+              <span class="delete-wrapper"> </span>
+            </span>
+          </li>
+          <li>
+            <span class="text-right-wrapper"></span>
+            <span class="item">Organize office</span>
+            <span class="delet-wrapper">
+              <span class="edit-wrapper"> </span>
+              <span class="delete-wrapper"> </span>
+            </span>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <script src="JS/script.js"></script>
+  </body>
+</html>
